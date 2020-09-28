@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <title>Herz & Haltung</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="./assets/js/jquery-3.5.1.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas Neue">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/fonts.css">
+
+  <style>
+    body,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Roboto Regular", sans-serif
+    }
+
+    h1 {
+      font-family: "Saira Stencil One", sans-serif;
+      font-size: 100px;
+      color: #37b9eb;
+      line-height: 90%;
+    }
+
+    h2 {
+      font-family: "Roboto Black", sans-serif;
+      font-size: 20px;
+      font-variant: all-small-caps;
+    }
+
+    h3 {
+      font-family: "Roboto Black", sans-serif;
+      font-size: 40px;
+      text-align: right;
+      line-height: 40px;
+      font-weight: bolder;
+    }
+
+    .row-padding img {
+      margin-bottom: 12px
+    }
+
+    .bgimg {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url('./assets/images/leave_left.jpg');
+      min-height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Sidebar with image -->
+  <nav class="sidebar hide-medium hide-small" style="width:40%">
+    <div class="bgimg animate-opacity"></div>
+  </nav>
+
+  <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+  <nav class="sidebar black animate-right xxlarge" style="display:none;padding-top:150px;right:0;z-index:2"
+    id="mySidebar">
+    <a href="javascript:void(0)" onclick="closeNav()" class="button black xxxlarge display-topright"
+      style="padding:0 12px;">
+      <i class="fa fa-remove"></i>
+    </a>
+    <div class="bar-block center">
+      <a href="index.html" class="bar-item button text-grey hover-black" onclick="closeNav()">Home</a>
+      <a href="#portfolio" class="bar-item button text-grey hover-black" onclick="closeNav()">Inhalt</a>
+      <a href="#about" class="bar-item button text-grey hover-black" onclick="closeNav()">Wir</a>
+      <a href="#contact" class="bar-item button text-grey hover-black" onclick="closeNav()">Kontakt</a>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="main padding-large" style="margin-left:40%">
+
+    <!-- Menu icon to open sidebar -->
+    <span class="button top white xxlarge text-grey hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i
+        class="fa fa-bars"></i></span>
+
+    <!-- Header -->
+    <header class="container" style="padding:100px 100px">
+      <div class="animate-opacity animate-right">
+        <h1>#LEAVE<br>NO ONE<br>BEHIND</h1>
+        <h2>Eine Gemeinde. Ein Bündnis. Eine Mission.</h2>
+      </div>
+      <img src="./assets/images/leave_1.jpg" class="image hide-large hide-small round" style="display:block;width:60%;margin:auto;">
+      <img src="./assets/images/leave_1.jpg" class="image hide-large hide-medium round" width="1000" height="1333">
+    </header>
+
+    <div style="margin-left:100px; margin-bottom: 10%; margin-right: 5%;">
+      <p style="text-align: justify;">
+        Sie ist 60 Meter lang, 11 Meter breit und auf ihren 135 m² liefert sie Platz für ein bisschen mehr Hoffnung: Die
+        Sea-Watch 4! Das ehemalige Forschungsschiff wird jetzt zur zivilen Seenotrettung eingesetzt. Gekauft und für
+        ihren Einsatz umgebaut wurde die Sea-Watch 4 mit Hilfe der Evangelischen Kirche in Deutschland, kurz EKD und dem
+        durch sie ins Leben gerufenen Verein United4Rescue. Dank vieler privater Unterstützer*innen und
+        Bündnispartner*innen konnte sie 2020 Richtung Mittelmeer auslaufen. <br><br>
+
+        Mit Beitritt zu dem Bündnis hat sich auch unsere Gemeinde im Januar 2020 den grundsätzlichen Forderungen des
+        Vereins angeschlossen. Sie streben in ihrem Kern danach, dass die Politik ihre eigenen Gesetze einhält und nicht
+        nur Menschen vor dem Ertrinken bewahrt, sondern diese Menschen auch nachhaltig in Sicherheit bringt, denn das
+        Völkerrecht besagt: „Das Recht auf Leben ist nicht verhandelbar. Menschen dürfen nicht in ein Land
+        zurückgebracht werden, in denen ihnen Gefahr und Rechtlosigkeit droht.“<br><br>
+
+        Eine solidarische und humanitäre Asylpolitik ist uns wichtig. Als Kirchengemeinde sehen wir uns in der
+        Verantwortung, zivile Seenotrettung zu unterstützen. Zu viele Menschenleben hat es bereits gekostet, dass
+        Politiker*innen sich weigern, bestehendes Internationales und EU-Recht umzusetzen. Und dabei sprechen wir nicht
+        nur von populistischen Parteien, die mit ihren Meinungen versuchen, das Sterben von Menschen vor der
+        italienischen Küste zu rechtfertigen, in dem sie permanent behaupten, dass Seenotrettung immer mehr Menschen
+        dazu veranlasse, ein bequemes Leben in Europa zu suchen. Nein, Menschen flüchten nicht, weil sie ein bisschen
+        mehr Luxus wollen und wir sie mit der Fähre abholen sollen. Nein, Menschen fliehen vor Internierungslagern,
+        Folter und Vergewaltigung. Deswegen heißt es Flucht. Viele sind bereits im Mittelmeer ertrunken, lange bevor es
+        die zivilen Seenotretter*innen gab. Da, wo Politik versagt und die Gesellschaft wegschaut, brauchen wir zivile
+        Seenotrettung!<br><br>
+
+        Sich für ein sicheres Verfahren zur Aufnahme und Rettung Geflüchteter einzusetzen, ist alles andere als ein
+        Vergnügen. Am Beispiel des EKD-Ratsvorsitzenden Heinrich Bedford-Strohm, der die Unterstützung der Seenotrettung
+        durch die EKD maßgeblich beeinflusst hat, erkennt man, dass es einigen Mut braucht, sich in unserer jetzigen
+        Gesellschaft hierfür einzusetzen. Nicht nur die Drohbriefe, die er erhielt, sondern auch die Anschläge in Hanau,
+        welche einen dunklen Schatten auf die Taufe des Schiffes warfen, führen uns vor Augen, dass wir unsere Werte
+        nicht nur als Christ*innen, sondern auch als Bürger*innen einer aufgeklärten Gesellschaft nicht mehr als
+        selbstverständlich hinnehmen dürfen. Es ist an uns, mit dem Abwarten aufzuhören und aktiv zu werden. Es ist an
+        uns, dem Aufruf zu folgen und klar zu machen:
+      </p>
+      <p class="half"><em><br><br><br><br><br> Karla Eberle & Björn Spiekermann<br>über Rassismus und Ausgrenzung<br>an europäischen Grenzen.</em></p>
+      
+      <h3>MAN LÄSST<br>KEINE<br>MENSCHEN<br>ERTRINKEN<br>PUNKT!</h3>
+
+      <svg height="100%" width="100%">
+        <line x1="91%" y1="0" x2="100%" y2="0" style="stroke:rgb(0,0,0);stroke-width:15" />
+      </svg>
+
+      <h2>Die Gemeinde ist Bündnispartnerin von United4Rescue und unterstützt die Sea-Watch 4 in ihrer Mission.</h2>
+      <p>
+        <b> <br> <br> Kontakt</b> <br>
+        Pastor Michael Schirmer<br>
+        <a href="mailto:pastor.schirmer@gemeinde-altona-ost.de" style="text-decoration: none;" class="hover-text-tomato">pastor.schirmer@gemeinde-altona-ost.de</a></p>
+      <p>
+        <b> Informationen</b> <br>
+
+        <a href="https://www.united4rescue.com" target="_blank" rel="noopener" style="text-decoration: none;" class="hover-text-tomato">www.united4rescue.com</a> <br>
+        <a href="https://www.gemeinde-altona-ost.de/engagement/united4rescue.html" target="_blank" rel="noopener" style="text-decoration: none;" class="hover-text-tomato">www.gemeinde-altona-ost.de</a>
+
+      </p>
+      <p>
+        <b> Spenden</b> <br>
+        IBAN: DE25520604105506490026<br>
+        46202/21906 United4Rescue
+      </p>
+
+    </div>
+    <footer class="container padding-16 light-grey center opacity xlarge" style="margin:-24px">
+      <p class="medium"><a href="https://www.gemeinde-altona-ost.de" target="_blank" style="text-decoration: none;" class="hover-text-tomato">www.gemeinde-altona-ost.de</a></p>
+    </footer>
+	</div>
+    
+	<script src="./assets/js/script.js"></script>
+  
+</body>
+</html>
